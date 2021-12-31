@@ -1,0 +1,8 @@
+version: '3'
+services:
+  app:
+    build: app
+    environment:
+      - FLAG=FLAG{Padding_Oracle_Attack}
+    ports:
+      - 50000:50000
