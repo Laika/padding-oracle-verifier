@@ -3,6 +3,6 @@ services:
   app:
     build: app
     environment:
-      - FLAG=FLAG{Padding_Oracle_Attack}
+      - FLAG=FLAG{Y0u_hav3_succ33ded_1n_verify1n9_padding_oracle_@ttack}
     ports:
       - 50000:50000
